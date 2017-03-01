@@ -9,7 +9,7 @@
       "email": "h.deluca@rekuest.net"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "dev-1.*",
   "require": {
     "illuminate/support": "^4.0|^5.0",
     "giggsey/libphonenumber-for-php": "^7.0|^8.0"
