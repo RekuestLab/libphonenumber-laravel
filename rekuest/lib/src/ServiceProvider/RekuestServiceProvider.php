@@ -23,7 +23,7 @@ class RekuestServiceProvider extends ServiceProvider
         /**
          * Alias
          */
-        $aliases = require __DIR__.'/aliases.php';
+        $aliases = require __DIR__.'/../aliases.php';
         AliasLoader::getInstance($aliases)->register();
     }
 }
