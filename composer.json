@@ -1,28 +1,22 @@
 {
-    "name": "rekuestlab/libphonenumber-laravel",
-    "description": "This is a porting from libphonenumber-for-php to Laravel framework",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Hertox",
-            "email": "h.deluca@rekuest.net"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Rekuest\\": "rekuest/lib/src/"
-        }
-    },
-    "require": {
-        "illuminate/support": "^4.0|^5.0",
-        "giggsey/libphonenumber-for-php": "^7.0|^8.0"
-    },
-    "repositories": [
-	{
-	    "type": "vcs",
-	    "url":  "https://github.com/RekuestLab/libphonenumber-laravel.git"
-	}
-	],
-    "minimum-stability" : "stable",
+  "name": "rekuestlab/libphonenumber-laravel",
+  "description": "This is a porting from libphonenumber-for-php to Laravel framework",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hertox",
+      "email": "h.deluca@rekuest.net"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "illuminate/support": "^4.0|^5.0",
+    "giggsey/libphonenumber-for-php": "^7.0|^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rekuest\\": "rekuest/lib/src/"
+    }
+  },
 }

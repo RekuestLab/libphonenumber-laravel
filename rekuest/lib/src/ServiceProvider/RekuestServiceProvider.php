@@ -4,6 +4,7 @@ namespace Rekuest\ServiceProvider;
 
 use Illuminate\Support\ServiceProvider;
 use Rekuest\AliasLoader;
+use libphonenumber\PhoneNumberUtil;
 
 class RekuestServiceProvider extends ServiceProvider
 {
@@ -16,7 +17,7 @@ class RekuestServiceProvider extends ServiceProvider
     {
 
         $this->app->singleton('lphonefacade',function(){
-            return new ListManager;
+            return PhoneNumberUtil::getInstance();
         });
         
         /**

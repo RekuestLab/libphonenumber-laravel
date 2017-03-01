@@ -19,3 +19,6 @@ In your app config, add the Service Provider to the `$providers` array
     Rekuest\ServiceProvider\RekuestServiceProvider::class,
 ],
 ```
+
+
+
